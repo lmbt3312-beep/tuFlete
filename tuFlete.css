@@ -110,6 +110,7 @@ nav a:hover{
     cursor:pointer;
 }
 
+
 .hero{
     display:flex;
     align-items:center;
@@ -220,12 +221,14 @@ nav a:hover{
 
 .texto-conductor{
     flex:1;
+    text-align: center;
 }
 
 .texto-conductor h2{
     font-size:40px;
     margin-bottom:20px;
 }
+
 
 .texto-conductor p{
     text-align: center;
