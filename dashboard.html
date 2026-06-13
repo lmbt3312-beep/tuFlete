@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dashboard - TuFlete</title>
+
+    <link rel="stylesheet" href="dashboard.css">
+
+</head>
+
+<body>
+
+    <header class="topbar">
+
+            <div class="logo">
+
+            <img src="tuFlete.png" alt="TuFlete">
+
+        </div>
+
+        <div class="usuario">
+
+            <span id="bienvenida"></span>
+
+            <button id="cerrarSesion">
+                Cerrar Sesión
+            </button>
+
+        </div>
+
+    </header>
+
+    <main>
+
+        <section class="hero-dashboard">
+
+            <h1>Panel de Usuario</h1>
+
+            <p>
+                Gestiona tus solicitudes, mensajes y servicios de transporte.
+            </p>
+
+        </section>
+
+        </section>
+
+        <section class="resumen">
+
+    <div class="resumen-card">
+
+        <h3>🚚 Solicitudes</h3>
+
+        <span id="totalSolicitudes">0</span>
+
+    </div>
+
+    <div class="resumen-card">
+
+        <h3>💬 Mensajes</h3>
+
+        <span>0</span>
+
+    </div>
+
+    <div class="resumen-card">
+
+        <h3>⭐ Calificación</h3>
+
+        <span>5.0</span>
+
+    </div>
+
+</section>
+
+        <section class="opciones">
+
+    <div class="card">
+
+        <div class="icono">🚚</div>
+
+        <h2>Solicitar Servicio</h2>
+
+        <p>
+            Publica una solicitud de acarreo o trasteo.
+        </p>
+
+        <a href="solicitar-servicio.html" class="btn-card">
+            Solicitar
+        </a>
+
+    </div>
+
+    <div class="card">
+
+        <div class="icono">📦</div>
+
+        <h2>Mis Solicitudes</h2>
+
+        <p>
+            Consulta tus solicitudes activas.
+        </p>
+
+        <a href="mis-solicitudes.html" class="btn-card">
+            Ver Solicitudes
+        </a>
+
+    </div>
+
+    <div class="card">
+
+        <div class="icono">💬</div>
+
+        <h2>Mensajes</h2>
+
+        <p>
+            Comunícate con conductores.
+        </p>
+
+        <a href="#" class="btn-card">
+            Ver Mensajes
+        </a>
+
+    </div>
+
+    <div class="card">
+
+        <div class="icono">👤</div>
+
+        <h2>Mi Perfil</h2>
+
+        <p>
+            Actualiza tu información.
+        </p>
+
+        <a href="perfil.html" class="btn-card">
+            Editar Perfil
+        </a>
+
+    </div>
+</section>
+
+    </main>
+
+    <script src="dashboard.js"></script>
+
+</body>
+
+</html>

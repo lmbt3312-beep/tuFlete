@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dashboard - TuFlete</title>
+
+    <link rel="stylesheet" href="dashboard.css">
+
+</head>
+
+<body>
+
+    <header class="topbar">
+
+            <div class="logo">
+
+            <img src="tuFlete.png" alt="TuFlete">
+
+        </div>
+
+        <div class="usuario">
+
+            <span id="bienvenida"></span>
+
+            <button id="cerrarSesion">
+                Cerrar Sesión
+            </button>
+
+        </div>
+
+    </header>
+
+    <main>
+
+    <section class="hero-dashboard">
+
+        <h1>🚚 Panel del Conductor</h1>
+
+        <p>
+            Administra tus servicios y encuentra nuevas oportunidades de trabajo.
+        </p>
+
+    </section>
+
+    <section class="resumen">
+
+        <div class="resumen-card">
+
+            <h3>🚚 Solicitudes</h3>
+
+            <span id="totalSolicitudes">12</span>
+
+        </div>
+
+        <div class="resumen-card">
+
+            <h3>💰 Ofertas</h3>
+
+            <span id="totalOfertas">4</span>
+
+        </div>
+
+        <div class="resumen-card">
+
+            <h3>⭐ Calificación</h3>
+
+            <span>5.0</span>
+
+        </div>
+
+    </section>
+
+    <section class="opciones">
+
+        <div class="card">
+
+            <div class="icono">🚚</div>
+
+            <h2>Solicitudes Disponibles</h2>
+
+            <p>
+                Encuentra servicios disponibles cerca de ti.
+            </p>
+
+            <a href="solicitudes-disponibles.html" class="btn-card">
+                Ver Solicitudes
+            </a>
+
+        </div>
+
+        <div class="card">
+
+            <div class="icono">💰</div>
+
+            <h2>Mis Ofertas</h2>
+
+            <p>
+                Consulta las ofertas enviadas.
+            </p>
+
+            <a href="mis-ofertas.html" class="btn-card">
+                Ver Ofertas
+            </a>
+
+        </div>
+
+        <div class="card">
+
+            <div class="icono">📋</div>
+
+            <h2>Servicios Activos</h2>
+
+            <p>
+                Administra los servicios aceptados.
+            </p>
+
+            <a href="servicios-activos.html" class="btn-card">
+                Ver Servicios
+            </a>
+
+        </div>
+
+        <div class="card">
+
+            <div class="icono">👤</div>
+
+            <h2>Mi Perfil</h2>
+
+            <p>
+                Actualiza tu información.
+            </p>
+
+            <a href="perfil-conductor.html" class="btn-card">
+                Editar Perfil
+            </a>
+
+        </div>
+
+    </section>
+
+</main>
+
+    <script src="dashboard.js"></script>
+
+</body>
+
+</html>

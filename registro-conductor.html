@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Registro de Conductores</title>
+
+    <link rel="stylesheet" href="dashboard.css">
+
+</head>
+
+<body>
+
+    <a href="tuFlete.html" class="logo-link">
+    <img src="tuFlete.png" alt="TuFlete" class="logo">
+</a>
+
+    <div class="formulario-servicio">
+
+        <h1>🚚 Registro de Conductores</h1>
+
+        <form id="registroConductor">
+
+            <label>Nombre Completo</label>
+            <input type="text" id="nombre" required>
+
+            <label>Correo Electrónico</label>
+            <input type="email" id="correo" required>
+
+            <label>Contraseña</label>
+            <input type="password" id="password" required>
+
+            <label>Ciudad</label>
+            <input type="text" id="ciudad" required>
+
+            <label>Teléfono</label>
+            <input type="text" id="telefono" required>
+
+            <label>Tipo de Vehículo</label>
+
+            <select id="vehiculo">
+
+                <option>Motocarga</option>
+                <option>Camioneta</option>
+                <option>Camión</option>
+                <option>Furgón</option>
+
+            </select>
+
+            <label>Capacidad de Carga</label>
+            <input type="text" id="capacidad">
+
+            <label>Años de Experiencia</label>
+            <input type="number" id="experiencia">
+
+            <label>Foto de Perfil</label>
+            <input type="file" id="fotoPerfil">
+
+            <label>Cédula de Ciudadanía</label>
+            <input type="file" id="cedula">
+
+            <label>Licencia de Conducción</label>
+            <input type="file" id="licencia">
+
+            <label>SOAT Vigente</label>
+            <input type="file" id="soat">
+<label>Tecnomecánica</label>
+<input type="file" id="tecnomecanica">
+
+<label>Foto del Vehículo</label>
+<input type="file" id="fotoVehiculo">
+
+            <button type="submit">
+
+                Registrarme como Conductor
+
+            </button>
+
+        </form>
+
+    </div>
+
+<script src="registro-conductor.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Administrador - TuFlete</title>
+
+    <link rel="stylesheet" href="dashboard.css">
+
+</head>
+
+<body>
+
+
+
+    <header class="topbar">
+
+        <a href="tuFlete.html" class="logo-link">
+    <img src="tuFlete.png" alt="TuFlete" class="logo">
+</a>
+
+        <div class="usuario">
+
+            <span>
+                Administrador
+            </span>
+
+        </div>
+
+    </header>
+
+    <section class="hero-dashboard">
+
+        <h1>⚙️ Panel de Administración</h1>
+
+        <p>
+            Gestiona usuarios, conductores y solicitudes.
+        </p>
+
+    </section>
+
+    <section class="resumen">
+
+        <div class="resumen-card">
+
+            <h3>👥 Usuarios</h3>
+
+            <span id="totalUsuarios">0</span>
+
+        </div>
+
+        <div class="resumen-card">
+
+            <h3>🚚 Conductores</h3>
+
+            <span id="totalConductores">0</span>
+
+        </div>
+
+        <div class="resumen-card">
+
+            <h3>📦 Solicitudes</h3>
+
+            <span id="totalSolicitudes">0</span>
+
+        </div>
+
+    </section>
+
+    <section class="opciones">
+
+        <div class="card">
+
+            <div class="icono">👥</div>
+
+            <h2>Usuarios</h2>
+
+            <p>
+                Ver usuarios registrados.
+            </p>
+
+            <a href="#usuarios" class="btn-card">
+                Ver Usuarios
+            </a>
+
+        </div>
+
+        <div class="card">
+
+            <div class="icono">🚚</div>
+
+            <h2>Conductores</h2>
+
+            <p>
+                Revisar conductores.
+            </p>
+
+            <a href="#conductores" class="btn-card">
+                Ver Conductores
+            </a>
+
+        </div>
+
+        <div class="card">
+
+            <div class="icono">📦</div>
+
+            <h2>Solicitudes</h2>
+
+            <p>
+                Consultar solicitudes.
+            </p>
+
+            <a href="#solicitudes" class="btn-card">
+                Ver Solicitudes
+            </a>
+
+        </div>
+
+        <div class="card">
+
+            <div class="icono">📊</div>
+
+            <h2>Reportes</h2>
+
+            <p>
+                Estadísticas generales.
+            </p>
+
+            <a href="#" class="btn-card">
+                Ver Reportes
+            </a>
+
+        </div>
+
+    </section>
+
+    <section id="conductores">
+
+        <h2 class="page-title">
+
+            🚚 Conductores Registrados
+
+        </h2>
+
+        <div id="listaConductores">
+
+        </div>
+
+    </section>
+
+<script src="admin.js"></script>
+
+</body>
+
+</html>

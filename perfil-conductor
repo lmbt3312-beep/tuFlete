@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Perfil Conductor</title>
+
+    <link rel="stylesheet" href="dashboard.css">
+
+</head>
+
+<body>
+
+    <div class="perfil">
+
+        <h1>👨‍✈️ Perfil del Conductor</h1>
+
+        <form>
+
+            <input type="text" placeholder="Nombre Completo">
+
+            <input type="text" placeholder="Ciudad">
+
+            <input type="text" placeholder="Teléfono">
+
+            <input type="text" placeholder="Tipo de Vehículo">
+
+            <input type="text" placeholder="Capacidad de Carga">
+
+            <input type="number" placeholder="Años de Experiencia">
+
+            <button type="submit">
+
+                Guardar Cambios
+
+            </button>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>

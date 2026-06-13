@@ -1,62 +1,286 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>TuFlete</title>
-<link rel="stylesheet" href="css/estilos.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TuFlete</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="tuFlete.css">
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 </head>
+
 <body>
 
-<header>
-<h2>TuFlete</h2>
-<nav>
-<a href="#">Inicio</a>
-<a href="#servicios">Servicios</a>
-<a href="#conductores">Conductores</a>
-<a href="#contacto">Contacto</a>
-</nav>
+
+    <header>
+
+    <div class="logo">
+        <img src="tuFlete.png" alt="Logo TuFlete">
+    </div>
+
+    <nav>
+        <a href="tuFlete.html">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#conductores">Conductores</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <div class="header-botones">
+
+      <a href="login.html" class="btn-login">
+    Iniciar Sesión
+</a>
+
+       <a href="registro.html" class="btn-registro">
+    Registrarse
+</a>
+    </div>
+
 </header>
 
-<section class="hero">
-<h1>Encuentra conductores confiables para tus acarreos y trasteos</h1>
-<p>Conecta con transportadores independientes y empresas al mejor precio.</p>
-<button id="btnServicio">Solicitar Servicio</button>
-</section>
+    <section class="hero">
 
-<section class="buscador">
-<h2>Buscar Servicio</h2>
-<form>
-<input type="text" placeholder="Lugar de recogida">
-<input type="text" placeholder="Destino">
-<select>
-<option>Tipo de carga</option>
-<option>Muebles</option>
-<option>Electrodomésticos</option>
-</select>
-<button>Buscar Conductor</button>
-</form>
-</section>
+        <div class="hero-texto">
 
-<section id="servicios">
-<h2>Nuestros Servicios</h2>
-<div class="contenedor-servicios">
-<div class="card"><h3>Acarreos</h3><p>Transporte de mercancías.</p></div>
-<div class="card"><h3>Trasteos</h3><p>Mudanzas para hogares y oficinas.</p></div>
-<div class="card"><h3>Empresas</h3><p>Servicios logísticos empresariales.</p></div>
+            <h1>
+                Encuentra conductores confiables para tus acarreos y trasteos
+            </h1>
+
+            <p>
+                Conecta con transportadores independientes y empresas al mejor precio.
+            </p>
+
+            <div class="hero-botones">
+
+                <a href="registro.html" class="btn-principal">
+    Solicitar Servicio
+</a>
+
+                <a href="registro-conductor.html" class="btn-secundario">
+    Trabajar como Conductor
+</a>
+
+            </div>
+
+        </div>
+
+        <div class="hero-imagen">
+
+            <img src="inicio.png" alt="Camión">
+
+        </div>
+
+    </section>
+
+    <section class="estadisticas">
+
+        <div class="dato">
+            <h2>500+</h2>
+            <p>Conductores</p>
+        </div>
+
+        <div class="dato">
+            <h2>1000+</h2>
+            <p>Servicios</p>
+        </div>
+
+        <div class="dato">
+            <h2>98%</h2>
+            <p>Satisfacción</p>
+        </div>
+
+    </section>
+
+    <section id="servicios">
+
+        <h2>Nuestros Servicios</h2>
+
+        <div class="contenedor-servicios">
+
+            <div class="card">
+
+    <h3>🚚 Acarreos</h3>
+
+    <p>
+        Transporte rápido de mercancías.
+    </p>
+
+    <a href="registro.html" class="btn-card">
+        Solicitar
+    </a>
+
 </div>
+
+            <div class="card">
+
+    <h3>🏠 Trasteos</h3>
+
+    <p>
+        Mudanzas para hogares y oficinas.
+    </p>
+
+    <a href="registro.html" class="btn-card">
+        Solicitar
+    </a>
+
+</div>
+
+<div class="card">
+
+    <h3>🏢 Empresas</h3>
+
+    <p>
+        Soluciones logísticas para empresas.
+    </p>
+
+    <a href="registro.html" class="btn-card">
+        Solicitar
+    </a>
+
+</div>
+
+        </div>
+
+        <section class="unete">
+
+    <h2>¿Cómo quieres usar TuFlete?</h2>
+
+    <div class="contenedor-servicios">
+
+        <div class="card">
+
+            <h3>📦 Cliente</h3>
+
+            <p>
+                Solicita acarreos, mudanzas y transporte de mercancías.
+            </p>
+
+            <a href="registro.html" class="btn-card">
+                Registrarme como Cliente
+            </a>
+
+        </div>
+
+        <div class="card">
+
+            <h3>🚚 Conductor</h3>
+
+            <p>
+                Recibe solicitudes y aumenta tus ingresos.
+            </p>
+
+            <a href="registro-conductor.html" class="btn-card">
+                Registrarme como Conductor
+            </a>
+
+        </div>
+
+    </div>
+
 </section>
 
-<section id="conductores">
-<h2>¿Eres conductor?</h2>
-<p>Regístrate y consigue más clientes.</p>
-<button>Registrarme</button>
+   <section id="conductores">
+
+    <div class="conductores-contenido">
+
+        <div class="imagen-conductor">
+            <img src="registrate.png" alt="Conductor">
+        </div>
+
+        <div class="texto-conductor">
+
+            <h2>¿Eres conductor?</h2>
+
+            <p>
+                Regístrate gratis y consigue más clientes todos los días.
+            </p>
+
+            <a href="registro-conductor.html" class="btn-principal">
+    Registrarme
+</a>
+
+        </div>
+
+    </div>
+
 </section>
 
-<footer id="contacto">
-<p>© 2026 TuFlete</p>
+    <footer id="contacto" class="footer">
+
+    <div class="footer-contenedor">
+
+        <div class="footer-columna">
+
+            <img src="tuFlete.png" alt="Logo TuFlete" class="footer-logo">
+
+            <p>
+                Conectamos personas y empresas con conductores confiables para acarreos, trasteos y transporte de carga.
+            </p>
+
+        </div>
+
+        <div class="footer-columna">
+
+            <h3>Enlaces</h3>
+
+            <a href="#">Inicio</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#conductores">Conductores</a>
+            <a href="#">Preguntas Frecuentes</a>
+
+        </div>
+
+        <div class="footer-columna">
+
+            <h3>Contacto</h3>
+
+            <p>📞 +57 300 123 4567</p>
+            <p>📧 contacto@tuflete.com</p>
+            <p>📍 Calle 50 #45-20, Medellín, Colombia</p>
+
+        </div>
+
+        <div class="footer-columna">
+
+            <h3>Síguenos</h3>
+
+            <div class="redes-sociales">
+
+                <div class="redes-sociales">
+
+    <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
+
+    <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+
+    <a href="#"><i class="fab fa-tiktok"></i> TikTok</a>
+
+    <a href="#"><i class="fab fa-youtube"></i> YouTube</a>
+
+</div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="footer-inferior">
+
+        <p>
+            © 2026 TuFlete. Todos los derechos reservados.
+        </p>
+
+    </div>
+
 </footer>
 
-<script src="js/app.js"></script>
+    <script src="tuFlete.js"></script>
+
 </body>
+
 </html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Solicitar Servicio</title>
+
+    <link rel="stylesheet" href="dashboard.css">
+
+</head>
+
+<body>
+
+    <div class="formulario-servicio">
+
+        <h1>🚚 Solicitar Transporte</h1>
+
+        <form id="servicioForm">
+
+            <label>Ciudad de Origen</label>
+
+            <input
+                type="text"
+                id="origen"
+                required>
+
+            <label>Ciudad de Destino</label>
+
+            <input
+                type="text"
+                id="destino"
+                required>
+
+            <label>Tipo de Vehículo</label>
+
+            <select id="vehiculo">
+
+                <option>Motocarga</option>
+                <option>Camioneta</option>
+                <option>Camión</option>
+                <option>Furgón</option>
+
+            </select>
+
+            <label>Fecha</label>
+
+            <input
+                type="date"
+                id="fecha"
+                required>
+
+            <label>Descripción</label>
+
+            <textarea
+                id="descripcion"
+                rows="5"></textarea>
+
+            <button type="submit">
+
+                Publicar Solicitud
+
+            </button>
+
+        </form>
+
+    </div>
+
+    <script src="solicitar-servicio.js"></script>
+
+</body>
+
+</html>

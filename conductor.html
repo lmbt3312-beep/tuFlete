@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Panel del Conductor</title>
+
+    <link rel="stylesheet" href="dashboard.css">
+
+</head>
+
+<body>
+
+    <div class="formulario-servicio">
+
+        <h1>🚚 Perfil del Conductor</h1>
+
+        <form id="conductorForm">
+
+            <label>Nombre</label>
+            <input type="text" id="nombre" required>
+
+            <label>Ciudad</label>
+            <input type="text" id="ciudad" required>
+
+            <label>Teléfono</label>
+            <input type="text" id="telefono" required>
+
+            <label>Tipo de Vehículo</label>
+
+            <select id="vehiculo">
+
+                <option>Motocarga</option>
+                <option>Camioneta</option>
+                <option>Camión</option>
+                <option>Furgón</option>
+
+            </select>
+
+            <label>Capacidad de Carga</label>
+            <input type="text" id="capacidad">
+
+            <label>Experiencia</label>
+            <textarea id="experiencia"></textarea>
+
+            <button type="submit">
+
+                Guardar Perfil
+
+            </button>
+
+        </form>
+
+        <br>
+
+        <a href="solicitudes-disponibles.html">
+
+            <button class="btn-principal">
+
+                Ver Solicitudes Disponibles
+
+            </button>
+
+        </a>
+
+    </div>
+
+<script src="conductor.js"></script>
+
+</body>
+
+</html>
